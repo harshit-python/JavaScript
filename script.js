@@ -40,14 +40,14 @@ switch (expr) {
 }
 
 
-// /* program to take input from user 
-// and check whether it is multiple or 5 or not */
-// let num1 = prompt("Enter a number:");
-// if (num1% 5 === 0) {
-//     console.log(num1, "is multiple of 5");
-// } else {
-//     console.log(num1, "is not a multiple of 5");
-// }
+/* program to take input from user 
+and check whether it is multiple or 5 or not */
+let num1 = prompt("Enter a number:");
+if (num1% 5 === 0) {
+    console.log(num1, "is multiple of 5");
+} else {
+    console.log(num1, "is not a multiple of 5");
+}
 
 
 /* program which gives grades to student according to his score */
