@@ -34,4 +34,4 @@ const profile = {
     followers: 500,
     following: 200,
 };
-console.log(profile)
+console.log(profile);
