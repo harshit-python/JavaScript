@@ -1,49 +1,49 @@
 // arrays in js
-// let marks = [97, 67, 87, 77, 65, 45, 88];
-// console.log(marks);
-// console.log(marks.length);
-// console.log(typeof marks);
-// console.log('marks[0]', marks[0]);
-// console.log('marks[1]', marks[1]);
-// marks[5] = 94;
-// console.log(marks);
+let marks = [97, 67, 87, 77, 65, 45, 88];
+console.log(marks);
+console.log(marks.length);
+console.log(typeof marks);
+console.log('marks[0]', marks[0]);
+console.log('marks[1]', marks[1]);
+marks[5] = 94;
+console.log(marks);
 
 let heroes = ['Ironman', 'Spiderman', 'Superman', 'Hulk', 'Thorr', 'Black widow', 'Batman'];
 
 // for loop 
-// for (let index = 0; index < heroes.length; index ++) {
-//     console.log(heroes[index]);
-// }
+for (let index = 0; index < heroes.length; index ++) {
+    console.log(heroes[index]);
+}
 
-// // for-of
-// for (let el of heroes) {
-//     console.log(el);
-// }
+// for-of
+for (let el of heroes) {
+    console.log(el);
+}
 
-// // for-in
-// for (let el in heroes) {
-//     console.log(heroes[el]);
-// }
+// for-in
+for (let el in heroes) {
+    console.log(heroes[el]);
+}
 
-// // program to find average of runs of a given array
-// let runsArray = [112, 88, 56, 78, 121, 109, 141, 68];
-// let sum = 0;
-// for (let i of runsArray) {
-//     sum = sum + i;
-// }
-// let average = sum/runsArray.length;
-// console.log("The average is:", average);
+// program to find average of runs of a given array
+let runsArray = [112, 88, 56, 78, 121, 109, 141, 68];
+let sum = 0;
+for (let i of runsArray) {
+    sum = sum + i;
+}
+let average = sum/runsArray.length;
+console.log("The average is:", average);
 
-// // program to apply 10% off on every item in an array
-// let index = 0;
-// let itemArray = [250, 645, 300, 900, 50]
-// for (let item of itemArray) {
-//     offerValue = item/10;
-//     newValue = item - offerValue;
-//     itemArray[index] = newValue;
-//     index++;
-// }
-// console.log("Updated array is:", itemArray);
+// program to apply 10% off on every item in an array
+let index = 0;
+let itemArray = [250, 645, 300, 900, 50]
+for (let item of itemArray) {
+    offerValue = item/10;
+    newValue = item - offerValue;
+    itemArray[index] = newValue;
+    index++;
+}
+console.log("Updated array is:", itemArray);
 
 
 // array methods
