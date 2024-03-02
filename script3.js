@@ -15,15 +15,21 @@ for (let index = 0; index < heroes.length; index ++) {
     console.log(heroes[index]);
 }
 
+console.log("------------first loop ends------------");
+
 // for-of
 for (let el of heroes) {
     console.log(el);
 }
 
+console.log("------------second loop ends------------");
+
 // for-in
 for (let el in heroes) {
     console.log(heroes[el]);
 }
+
+console.log("------------third loop ends------------");
 
 // program to find average of runs of a given array
 let runsArray = [112, 88, 56, 78, 121, 109, 141, 68];
@@ -59,7 +65,7 @@ console.log("toString:", heroes.toString());
 console.log("original array:", heroes);
 let newHeroes = ["Captain America", "Black Panther", "Arrow", "Flash", "Deadpool", "Antman", "Doctor Strange"];
 concatHeroes = heroes.concat(newHeroes);
-console.log(concatHeroes);
+console.log("concatHeroes:", concatHeroes);
 // unshift adds at beginning
 let val = newHeroes.unshift("Hawk Eye");
 console.log(newHeroes);
@@ -82,6 +88,7 @@ console.log(allHeroes);
 // program to create an array to store companies
 
 companiesArray = ['Bloomberg', 'Microsoft', 'Uber', 'Google', 'IBM', 'Netflix'];
+console.log("Initial companiesArray:", companiesArray)
 
 // remove first company from array
 companiesArray.shift();
