@@ -1,0 +1,25 @@
+h1 {
+    color: blue;
+    background-color: yellow;
+}
+
+/* we can style h1 using it's id name from html file also, i.e. #heading */
+/* #heading {
+    color: blue;
+} */
+
+/* styling using class */
+.heading2 {
+    color: black;
+}
+
+
+body {
+    background-color: pink;
+}
+
+
+button {
+    background-color: blue;
+    color: white;
+}
